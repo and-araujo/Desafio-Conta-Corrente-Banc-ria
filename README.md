@@ -8,7 +8,7 @@ Controle de conta corrente bancária, processando solicitações de depósito, r
     - Update-Database
    
 # Dependências
-
+- Framework 3.0 do .Net Core
 - AutoMapper 7.0.0
 - Entity Framework Core 3.1.3
 - Entity Framework Core Relational 3.1.3
