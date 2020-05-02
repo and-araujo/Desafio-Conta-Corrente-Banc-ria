@@ -1,0 +1,36 @@
+﻿@model Banco.App.ViewModels.ContaCorrenteViewModel
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Data
+            </th>
+            <th>
+                Tipo Transação
+            </th>
+            <th>
+                Valor
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in @Model.Transacoes)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DataTransacao)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TipoTransacao)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ValorTransacao)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+

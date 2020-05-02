@@ -1,0 +1,11 @@
+C:\Users\Casa8\Desktop\Anderson\Cursos\Desafio\Desafio\src\Banco.Data\bin\Debug\netstandard2.0\Banco.Data.deps.json
+C:\Users\Casa8\Desktop\Anderson\Cursos\Desafio\Desafio\src\Banco.Data\bin\Debug\netstandard2.0\Banco.Data.dll
+C:\Users\Casa8\Desktop\Anderson\Cursos\Desafio\Desafio\src\Banco.Data\bin\Debug\netstandard2.0\Banco.Data.pdb
+C:\Users\Casa8\Desktop\Anderson\Cursos\Desafio\Desafio\src\Banco.Data\obj\Debug\netstandard2.0\Banco.Data.csprojAssemblyReference.cache
+C:\Users\Casa8\Desktop\Anderson\Cursos\Desafio\Desafio\src\Banco.Data\obj\Debug\netstandard2.0\Banco.Data.AssemblyInfoInputs.cache
+C:\Users\Casa8\Desktop\Anderson\Cursos\Desafio\Desafio\src\Banco.Data\obj\Debug\netstandard2.0\Banco.Data.AssemblyInfo.cs
+C:\Users\Casa8\Desktop\Anderson\Cursos\Desafio\Desafio\src\Banco.Data\obj\Debug\netstandard2.0\Banco.Data.dll
+C:\Users\Casa8\Desktop\Anderson\Cursos\Desafio\Desafio\src\Banco.Data\obj\Debug\netstandard2.0\Banco.Data.pdb
+C:\Users\Casa8\Desktop\Anderson\Cursos\Desafio\Desafio\src\Banco.Data\bin\Debug\netstandard2.0\Banco.Business.dll
+C:\Users\Casa8\Desktop\Anderson\Cursos\Desafio\Desafio\src\Banco.Data\bin\Debug\netstandard2.0\Banco.Business.pdb
+C:\Users\Casa8\Desktop\Anderson\Cursos\Desafio\Desafio\src\Banco.Data\obj\Debug\netstandard2.0\Banco.Data.csproj.CopyComplete

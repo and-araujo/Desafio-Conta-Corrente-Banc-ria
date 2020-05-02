@@ -1,0 +1,71 @@
+﻿@model Banco.App.ViewModels.ContaCorrenteViewModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div>
+    <h4>Conta Corrente</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Agencia)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Agencia)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NumeroConta)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.NumeroConta)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DigitoConta)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DigitoConta)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.SaldoAtual)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.TextBoxFor(model => model.SaldoAtual, new { @id = "saldo-atual", disabled = "disabled" })
+        </dd>
+    </dl>
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <label asp-for="Valor" class="control-label"></label>        
+        <input asp-for="Valor" class="form-control" id="valor" />
+    </div>
+    <div class="col-md-8">
+        <div id="msgError"></div>
+    </div>
+</div>
+<br />
+<div class="row">
+    <div class="col-md-4">
+        <a class="btn btn-info" onclick="Transacao(@Model.Id, 'Depositar')">Depositar</a>
+    </div>
+    <div class="col-md-4">
+        <a class="btn btn-info" onclick="Transacao(@Model.Id, 'Retirar')">Retirar</a>
+    </div>
+    <div class="col-md-4">
+        <a class="btn btn-info" onclick="Transacao(@Model.Id, 'PagarConta')">Pagar Conta</a>
+    </div>
+</div>
+<br />
+
+<div id="grid-transacoes">
+    <partial name="_Extrato" />
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $("#valor").maskMoney();
+        }
+    </script>
+}
+
+
